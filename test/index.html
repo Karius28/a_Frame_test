@@ -1,0 +1,27 @@
+<head>
+  <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+</head>
+<body>
+  <a-scene>
+    <a-assets>
+      <img id="mTexture" src="https://i.imgur.com/6oGxs8S.png">
+    </a-assets>
+
+    <a-box src="#mTexture" position="-1 0.5 -3" rotation="0 45 0" color="#FFF">
+    </a-box>
+
+    <a-box src="#mTexture" position="-1 0.5 -3" rotation="0 45 0" color="#FFF">
+      <a-animation attribute="rotation" begin="click" dur="2000" to="360 405 45"></a-animation>
+      <a-animation attribute="scale" begin="mouseenter" dur="300" to="2.3 2.3 2.3"></a-animation>
+    </a-box>
+
+    <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+    <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+    <a-sky color="#ECECEC"></a-sky>
+
+    <!-- Out of the box environment! -->
+    <a-entity environment="preset: forest; dressingAmount: 500"></a-entity>
+
+  </a-scene>
+</body>
