@@ -11,6 +11,8 @@ function init() {
   console.log('te01st01');
 
   console.log('test');
+
+  console.log('testtest');
   draw()
 }
 init()
