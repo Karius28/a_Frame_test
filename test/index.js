@@ -10,6 +10,8 @@ function init() {
   }
 
   console.log('test');
+
+  console.log('aaaaaaaaaaa');
   draw()
 }
 init()
