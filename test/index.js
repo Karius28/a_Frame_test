@@ -8,10 +8,12 @@ function init() {
     boxEl.setAttribute('src', '#mTexture')
     sceneEl.appendChild(boxEl)
   }
+  console.log('te01st01');
 
   console.log('test');
 
-  console.log('aaaaaaaaaaa');
+  console.log('aaaaaaaaaaab');
+  console.log('testtest');
   draw()
 }
 init()
