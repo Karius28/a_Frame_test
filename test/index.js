@@ -9,6 +9,7 @@ function init() {
     sceneEl.appendChild(boxEl)
   }
 
+  console.log('test');
   draw()
 }
 init()
