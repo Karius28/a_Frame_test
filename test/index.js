@@ -9,6 +9,8 @@ function init() {
     sceneEl.appendChild(boxEl)
   }
   console.log('te01st01');
+
+  console.log('test');
   draw()
 }
 init()
